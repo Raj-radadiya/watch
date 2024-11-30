@@ -30,7 +30,7 @@ export default function Header() {
           <div className='flex gap-10'>
             <div>home</div>
             <div className='flex gap-1 items-center'>shop <img src={down} alt='img' /></div>
-            <div className='flex gap-1 items-center'>categories <div className='p-2 bg-green-200'>sale</div> <img src={down} alt='img' /></div>
+            <div className='flex gap-1 items-center'>categories <div className='p-2 bg-blue-400 font-inter'>sale</div> <img src={down} alt='img' /></div>
           </div>
 
         </div>
