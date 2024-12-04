@@ -75,7 +75,7 @@ export default function Deal() {
     };
     return (
         <div>
-            <div className='max-w-[1430px] mx-auto pt-10 tab:py-16 mob:py-10'>
+            <div className='max-w-[1430px] mx-auto pt-10 tab:py-16 tab:pb-0 mob:py-10'>
                 <div className='pb-10'>
                     <div className='text-center mb-10 text-3xl font-semibold mob:text-2xl mob:mb-5'>
                         <h1>Deal Of The Day</h1>

@@ -79,7 +79,7 @@ export default function Product() {
             <div className='max-w-[1430px] mx-auto pt-10 tab:py-12 mob:py-10'>
                 <div className='pb-10'>
                     <div className='text-center mb-10 text-3xl font-semibold mob:text-2xl mob:mb-5'>
-                        <h1>Deal Of The Day</h1>
+                        <h1>Special Product</h1>
                     </div>
                     <div>
                         <div className='flex gap-4 text-center justify-center'>

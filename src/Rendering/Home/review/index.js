@@ -63,8 +63,8 @@ export default function Review() {
                             <div className="text-center">
                                 <Slider {...settings}>
                                     <div className='text-center max-w-[330px] tab:px-3'>
-                                        <div className='py-5 mob:py-3'>
-                                            <span className='text-2xl font-semibold'>Love it so much</span>
+                                        <div className='py-5 tab:py-4 mob:py-3'>
+                                            <span className='text-2xl font-semibold tab:text-xl'>Love it so much</span>
                                         </div>
                                         <div className='text-textGray pb-5 mob:py-3'>
                                             <p className='text-sm'>“Lorem ipsum dolor sit amet,consectetur dipiscing elit. Aliquam egetorcided atc, Donec quis faucibus.”</p>
@@ -78,8 +78,8 @@ export default function Review() {
                                         </div>
                                     </div>
                                     <div className='text-center max-w-[330px] tab:px-3'>
-                                        <div className='py-5 mob:py-3'>
-                                            <span className='text-2xl font-semibold'>so looking</span>
+                                        <div className='py-5 tab:py-4 mob:py-3'>
+                                            <span className='text-2xl font-semibold tab:text-xl'>so looking</span>
                                         </div>
                                         <div className='text-textGray pb-5 mob:py-3'>
                                             <p className='text-sm'>“Lorem ipsum dolor sit amet,consectetur dipiscing elit. Aliquam egetorcided atc, Donec quis faucibus.”</p>
@@ -93,8 +93,8 @@ export default function Review() {
                                         </div>
                                     </div>
                                     <div className='text-center max-w-[330px] tab:px-3'>
-                                        <div className='py-5 mob:py-3'>
-                                            <span className='text-2xl font-semibold'>Very excellentely</span>
+                                        <div className='py-5 tab:py-4 mob:py-3'>
+                                            <span className='text-2xl font-semibold tab:text-xl'>Very excellentely</span>
                                         </div>
                                         <div className='text-textGray pb-5 mob:py-3'>
                                             <p className='text-sm'>“Lorem ipsum dolor sit amet,consectetur dipiscing elit. Aliquam egetorcided atc, Donec quis faucibus.”</p>
@@ -108,8 +108,8 @@ export default function Review() {
                                         </div>
                                     </div>
                                     <div className='text-center max-w-[330px] tab:px-3'>
-                                        <div className='py-5 mob:py-3'>
-                                            <span className='text-2xl font-semibold'>We like, so nice</span>
+                                        <div className='py-5 tab:py-4 mob:py-3'>
+                                            <span className='text-2xl font-semibold tab:text-xl'>We like, so nice</span>
                                         </div>
                                         <div className='text-textGray pb-5 mob:py-3'>
                                             <p className='text-sm'>“Lorem ipsum dolor sit amet,consectetur dipiscing elit. Aliquam egetorcided atc, Donec quis faucibus.”</p>

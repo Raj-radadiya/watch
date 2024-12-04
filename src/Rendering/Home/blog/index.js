@@ -65,16 +65,16 @@ export default function Blog() {
     };
     return (
         <div>
-            <div className='max-w-[1430px] mx-auto'>
+            <div className='max-w-[1430px] m-auto'>
                 <div>
-                    <div className='text-center pb-8 text-3xl font-semibold tab:py-10'>
+                    <div className='text-center pb-8 text-3xl font-semibold tab:py-10 tab:pb-7'>
                         <h2>Our Latest News</h2>
                     </div>
                     <div>
                         <div className="overflow-hidden">
                             <Slider {...settings}>
                                 <div className='px-4 tab:pl-5 tab:pr-3'>
-                                    <div className='h-72 mob:h-[215px] w-auto overflow-hidden'>
+                                    <div className='h-72 tab:h-[235px] mob:h-[215px] w-auto overflow-hidden'>
                                         <img className='h-full w-full object-cover transform hover:scale-110 ease-in-out duration-300' src={blogFirst} alt='blogFirst' />
                                     </div>
 
@@ -94,7 +94,7 @@ export default function Blog() {
                                     </div>
                                 </div>
                                 <div className='px-4 tab:pl-3 tab:pr-5'>
-                                    <div className='h-72 w-auto overflow-hidden'>
+                                    <div className='h-72 tab:h-[235px] mob:h-[215px] w-auto overflow-hidden'>
                                         <img className='h-full w-full object-cover transform hover:scale-110 ease-in-out duration-300' src={blogSecond} alt='blogFirst' />
                                     </div>
 
