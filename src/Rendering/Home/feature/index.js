@@ -7,26 +7,38 @@ export default function Feature() {
     return (
         <div>
             <div className='bg-gray px-4 py-10'>
-                <div className='flex gap-4 max-w-[1430px] mx-auto '>
-                    <div className='flex items-center'>
-                        <img src={box} alt='box' />
-                        <span>100% free shipping </span>
-                    </div>
-                    <div className='flex items-center'>
+                <div className='flex justify-between max-w-[1430px] mx-auto  mob:flex-col mob:gap-3'>
+                    <div className='flex gap-4 items-center mob:justify-center'>
                         <div>
-                            <img src={tick} alt='box' />
+                            <img className='h-14 tab:h-10' src={box} alt='box' />
                         </div>
+                        <div className='font-semibold text-base'>
+                            <span>100% free shipping </span>
+                        </div>
+                    </div>
+                    <div className='flex gap-4 items-center mob:justify-center'>
                         <div>
+                            <img className='h-14 tab:h-10' src={tick} alt='box' />
+                        </div>
+                        <div className='font-semibold text-base'>
                             <span>Quick & Easy to Returns</span>
                         </div>
                     </div>
-                    <div className='flex items-center'>
-                        <img src={chat} alt='box' />
-                        <span>24/4 Online Best Support</span>
+                    <div className='flex gap-4 items-center mob:justify-center'>
+                        <div>
+                            <img className='h-14 tab:h-10' src={chat} alt='box' />
+                        </div>
+                        <div className='font-semibold text-base'>
+                            <span>24/4 Online Best Support</span>
+                        </div>
                     </div>
-                    <div className='flex items-center'>
-                        <img src={money} alt='box' />
-                        <span>24/4 Online Best Support</span>
+                    <div className='flex gap-4 items-center mob:justify-center'>
+                        <div>
+                            <img className='h-14 tab:h-10' src={money} alt='box' />
+                        </div>
+                        <div className='font-semibold text-base'>
+                            <span>24/4 Online Best Support</span>
+                        </div>
                     </div>
                 </div>
             </div>
