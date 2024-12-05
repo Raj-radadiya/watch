@@ -20,7 +20,14 @@ module.exports = {
         indigo: '#808080',
         textGray: '#555555',
         spanGray: '#777777',
+        blue: '#0000FF',
+        brown: '#964B00',
+        golden: '#FFD700',
+        silver: '#C0C0C0',
+        redBg: '#fff4f4',
+        redText: '#da3f3f',
       },
+
       fontSize: {
         p: '8px',
         button: '16px'

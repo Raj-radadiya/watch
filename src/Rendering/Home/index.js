@@ -18,11 +18,11 @@ export default function Home() {
             <Category />
             <Offers />
             <Deal />
-            <DiscountBanner/>
-            <Product/>
-            <Review/>
-            <Blog/>
-            <Discount/>
+            <DiscountBanner />
+            <Product />
+            <Review />
+            <Blog />
+            <Discount />
         </div>
     )
 }
