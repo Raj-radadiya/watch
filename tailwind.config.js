@@ -20,7 +20,7 @@ module.exports = {
         indigo: '#808080',
         textGray: '#555555',
         spanGray: '#777777',
-        backgroundGray:'#f4f4f4',
+        backgroundGray: '#f4f4f4',
         blue: '#0000FF',
         brown: '#964B00',
         golden: '#FFD700',

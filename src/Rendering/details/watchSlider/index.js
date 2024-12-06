@@ -7,7 +7,7 @@ import watchForth from '../../../Assets/Images/slider/watchForth.webp';
 import watchFifth from '../../../Assets/Images/slider/watchFifth.webp';
 import left from '../../../Assets/Icon/fe--arrow-left.svg';
 import right from '../../../Assets/Icon/weui--arrow-filled.svg';
-import WatchDisc from "../watchDisc";
+import WatchDisc from "../watchspecification";
 function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
@@ -48,26 +48,26 @@ export default function Productpart() {
     return (
         <div>
             <div>
-                <div className='flex p-[50px] gap-5 relative'>
-                    <div className="w-1/2 flex h-[475px] sticky top-0">
-                        <div className='w-[20%]'>
-                            <div className='w-[110px] h-[85px] border border-black mb-3 overflow-hidden hover:border-borderGray duration-300 mr-6'>
+                <div className='flex p-[50px] gap-5 relative tab:px-5 mob:flex-col'>
+                    <div className="w-1/2 flex h-[475px] sticky top-0 tab:flex-col tab:gap-3 tab:h-full mob:w-full mob:relative">
+                        <div className='w-[20%] tab:w-full tab:flex tab:justify-center tab:items-center tab:gap-6'>
+                            <div className='w-[110px] h-[85px] border border-black mb-3 overflow-hidden hover:border-borderGray duration-300 mr-6 tab:mr-0'>
                                 <img className='w-full h-full border-black transform scale-110 hover:scale-90 ease-in-out duration-300' src={watchFirst} alt='blazzer' />
                             </div>
-                            <div className='w-[110px] h-[85px] border border-black mb-3 overflow-hidden hover:border-borderGray duration-300 mr-6'>
+                            <div className='w-[110px] h-[85px] border border-black mb-3 overflow-hidden hover:border-borderGray duration-300 mr-6 tab:mr-0'>
                                 <img className='w-full h-full border-black transform scale-110 hover:scale-90 ease-in-out duration-300' src={watchSecond} alt='lady' />
                             </div>
-                            <div className='w-[110px] h-[85px] border border-black mb-3 overflow-hidden hover:border-borderGray duration-300 mr-6'>
+                            <div className='w-[110px] h-[85px] border border-black mb-3 overflow-hidden hover:border-borderGray duration-300 mr-6 tab:mr-0'>
                                 <img className='w-full h-full border-black transform scale-110 hover:scale-90 ease-in-out duration-300' src={watchThird} alt='blackblazzer' />
                             </div>
-                            <div className='w-[110px] h-[85px] border border-black mb-3 overflow-hidden hover:border-borderGray duration-300 mr-6'>
+                            <div className='w-[110px] h-[85px] border border-black mb-3 overflow-hidden hover:border-borderGray duration-300 mr-6 tab:hidden'>
                                 <img className='w-full h-full border-black transform scale-110 hover:scale-90 ease-in-out duration-300' src={watchForth} alt='darkblazzer' />
                             </div>
-                            <div className='w-[110px] h-[85px] border border-black overflow-hidden hover:border-borderGray duration-300 mr-6'>
+                            <div className='w-[110px] h-[85px] border border-black overflow-hidden hover:border-borderGray duration-300 mr-6 tab:hidden'>
                                 <img className='w-full h-full border-black transform scale-110 hover:scale-90 ease-in-out duration-300' src={watchFifth} alt='darkblazzer' />
                             </div>
                         </div>
-                        <div className='w-[80%] border border-borderGray'>
+                        <div className='w-[80%] border border-borderGray tab:w-full'>
                             <div>
                                 <Slider {...settings}>
                                     <div className="w-[560px] h-[430px]">
@@ -89,7 +89,7 @@ export default function Productpart() {
                             </div>
                         </div>
                     </div>
-                    <div className='w-1/2'>
+                    <div className='w-1/2 mob:w-full'>
                         <WatchDisc />
                     </div>
                 </div>
