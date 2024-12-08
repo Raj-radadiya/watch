@@ -3,6 +3,7 @@ import Home from './Home'
 import Watch from './product'
 import Details from './details'
 import Blog from './blog'
+import Contact from './contact'
 
 export default function Rendering() {
   return (
@@ -10,7 +11,8 @@ export default function Rendering() {
       <Home />
       <Watch />
       <Details />
-      <Blog/>
+      <Blog />
+      <Contact/>
     </div>
   )
 }

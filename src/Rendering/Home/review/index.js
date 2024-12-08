@@ -57,67 +57,67 @@ export default function Review() {
                 <div className='max-w-[1430px] mx-auto py-16 tab:py-0 mob:py-0 mob:flex-col tab:px-5'>
                     <div>
                         <div className='text-center py-6 tab:pb-5 mob:pb-0'>
-                            <p className='text-2xl font-semibold'>Our Lovely Customers</p>
+                            <p className='text-2xl font-semibold mob:text-xl'>Our Lovely Customers</p>
                         </div>
                         <div>
                             <div className="text-center">
                                 <Slider {...settings}>
                                     <div className='text-center max-w-[330px] tab:px-3'>
-                                        <div className='py-5 tab:py-4 mob:py-3'>
-                                            <span className='text-2xl font-semibold tab:text-xl'>Love it so much</span>
+                                        <div className='py-5 tab:py-4 mob:pb-1 '>
+                                            <span className='text-2xl font-semibold tab:text-xl mob:text-lg'>Love it so much</span>
                                         </div>
-                                        <div className='text-textGray pb-5 mob:py-3'>
-                                            <p className='text-sm'>“Lorem ipsum dolor sit amet,consectetur dipiscing elit. Aliquam egetorcided atc, Donec quis faucibus.”</p>
+                                        <div className='text-textGray pb-5 mob:py-2'>
+                                            <p className='text-sm tab:leading-relaxed'>“Lorem ipsum dolor sit amet,consectetur dipiscing elit. Aliquam egetorcided atc, Donec quis faucibus.”</p>
                                         </div>
                                         <div className='pb-5 mob:py-0'>
-                                            <img className='w-20 h-20 mx-auto rounded-full' src={customerFirst} alt='customer' />
+                                            <img className='w-20 h-20 mx-auto rounded-full mob:h-16 mob:w-16' src={customerFirst} alt='customer' />
                                         </div>
-                                        <div className='mob:pt-3'>
+                                        <div className='mob:pt-2'>
                                             <p className='text-base font-extrabold uppercase tracking-wider'>jennifer c.</p>
                                             <p className='text-sm'>Orlando.FL</p>
                                         </div>
                                     </div>
                                     <div className='text-center max-w-[330px] tab:px-3'>
-                                        <div className='py-5 tab:py-4 mob:py-3'>
-                                            <span className='text-2xl font-semibold tab:text-xl'>so looking</span>
+                                        <div className='py-5 tab:py-4 mob:pb-1 '>
+                                            <span className='text-2xl font-semibold tab:text-xl mob:text-lg'>so looking</span>
                                         </div>
-                                        <div className='text-textGray pb-5 mob:py-3'>
-                                            <p className='text-sm'>“Lorem ipsum dolor sit amet,consectetur dipiscing elit. Aliquam egetorcided atc, Donec quis faucibus.”</p>
+                                        <div className='text-textGray pb-5 mob:py-2'>
+                                            <p className='text-sm tab:leading-relaxed'>“Lorem ipsum dolor sit amet,consectetur dipiscing elit. Aliquam egetorcided atc, Donec quis faucibus.”</p>
                                         </div>
                                         <div className='pb-5 mob:py-0'>
-                                            <img className='w-20 h-20 mx-auto rounded-full' src={customerSecond} alt='customer' />
+                                            <img className='w-20 h-20 mx-auto rounded-full mob:h-16 mob:w-16' src={customerSecond} alt='customer' />
                                         </div>
-                                        <div className='mob:pt-3'>
+                                        <div className='mob:pt-2'>
                                             <p className='text-base font-extrabold uppercase tracking-wider'>John D.</p>
                                             <p className='text-sm'>Orlando.FL</p>
                                         </div>
                                     </div>
                                     <div className='text-center max-w-[330px] tab:px-3'>
-                                        <div className='py-5 tab:py-4 mob:py-3'>
-                                            <span className='text-2xl font-semibold tab:text-xl'>Very excellentely</span>
+                                        <div className='py-5 tab:py-4 mob:pb-1 '>
+                                            <span className='text-2xl font-semibold tab:text-xl mob:text-lg'>Very excellentely</span>
                                         </div>
-                                        <div className='text-textGray pb-5 mob:py-3'>
-                                            <p className='text-sm'>“Lorem ipsum dolor sit amet,consectetur dipiscing elit. Aliquam egetorcided atc, Donec quis faucibus.”</p>
+                                        <div className='text-textGray pb-5 mob:py-2'>
+                                            <p className='text-sm tab:leading-relaxed'>“Lorem ipsum dolor sit amet,consectetur dipiscing elit. Aliquam egetorcided atc, Donec quis faucibus.”</p>
                                         </div>
                                         <div className='pb-5 mob:py-0'>
-                                            <img className='w-20 h-20 mx-auto rounded-full' src={customerThird} alt='customer' />
+                                            <img className='w-20 h-20 mx-auto rounded-full mob:h-16 mob:w-16' src={customerThird} alt='customer' />
                                         </div>
-                                        <div className='mob:pt-3'>
+                                        <div className='mob:pt-2'>
                                             <p className='text-base font-extrabold uppercase tracking-wider'>keyol f.</p>
                                             <p className='text-sm'>Orlando.FL</p>
                                         </div>
                                     </div>
                                     <div className='text-center max-w-[330px] tab:px-3'>
-                                        <div className='py-5 tab:py-4 mob:py-3'>
-                                            <span className='text-2xl font-semibold tab:text-xl'>We like, so nice</span>
+                                        <div className='py-5 tab:py-4 mob:pb-1 '>
+                                            <span className='text-2xl font-semibold tab:text-xl mob:text-lg'>We like, so nice</span>
                                         </div>
-                                        <div className='text-textGray pb-5 mob:py-3'>
-                                            <p className='text-sm'>“Lorem ipsum dolor sit amet,consectetur dipiscing elit. Aliquam egetorcided atc, Donec quis faucibus.”</p>
+                                        <div className='text-textGray pb-5 mob:py-2'>
+                                            <p className='text-sm tab:leading-relaxed'>“Lorem ipsum dolor sit amet,consectetur dipiscing elit. Aliquam egetorcided atc, Donec quis faucibus.”</p>
                                         </div>
                                         <div className='pb-5 mob:py-0'>
-                                            <img className='w-20 h-20 mx-auto rounded-full' src={customerFirst} alt='customer' />
+                                            <img className='w-20 h-20 mx-auto rounded-full mob:h-16 mob:w-16' src={customerFirst} alt='customer' />
                                         </div>
-                                        <div className='mob:pt-3'>
+                                        <div className='mob:pt-2'>
                                             <p className='text-base font-extrabold uppercase tracking-wider'>semil j.</p>
                                             <p className='text-sm'>Orlando.FL</p>
                                         </div>

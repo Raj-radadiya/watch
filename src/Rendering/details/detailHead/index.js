@@ -3,7 +3,7 @@ import React from 'react'
 export default function DetailsHead() {
     return (
         <div>
-            <div className='text-center py-7 bg-gray tab:py-7'>
+            <div className='text-center py-7 bg-gray tab:py-7 tab:px-7'>
                 <div>
                     <a href='#' className='cursor-pointer text-sm tracking-wider font-normal'>Home /</a>
                     <a href='#' className='cursor-pointer text-sm tracking-wider font-normal'> Shop /</a>

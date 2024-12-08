@@ -5,7 +5,7 @@ import coupleWatch from '../../../Assets/Images/coupleWatch.webp';
 export default function Category() {
     return (
         <div>
-            <div className='max-w-[1430px] mx-auto pt-28 tab:py-16 tab:pb-12 mob:py-8'>
+            <div className='max-w-[1430px] mx-auto pt-28 tab:py-16 tab:pb-12 mob:py-5'>
                 <div className='text-center'>
                     <div className='mb-10 text-3xl font-semibold tab:text mob:text-2xl mob:mb-5 '>
                         <h1>Shop By Category</h1>

@@ -16,7 +16,7 @@ import chart from '../../../Assets/Icon/eva--bar-chart-outline.svg';
 import chartHover from '../../../Assets/Icon/chartHover.svg';
 import eye from '../../../Assets/Icon/tabler--eye.svg';
 import eyeHover from '../../../Assets/Icon/eyeHover.svg';
-import star from '../../../Assets/Icon/star-sharp-svgrepo-com.svg';
+import star from '../../../Assets/Icon/icons8-star-15.png';
 import left from '../../../Assets/Icon/lsicon--left-outline.svg';
 import right from '../../../Assets/Icon/lsicon--right-filled.svg';
 function SampleNextArrow(props) {
@@ -76,8 +76,8 @@ export default function Deal() {
     return (
         <div>
             <div className='max-w-[1430px] mx-auto pt-10 tab:py-16 tab:pb-0 mob:py-10'>
-                <div className='pb-10'>
-                    <div className='text-center mb-10 text-3xl font-semibold mob:text-2xl mob:mb-5'>
+                <div className='pb-7'>
+                    <div className='text-center mb-7 text-3xl font-semibold mob:text-2xl mob:mb-5'>
                         <h1>Deal Of The Day</h1>
                     </div>
                     <div>
@@ -102,15 +102,15 @@ export default function Deal() {
                     </div>
                 </div>
                 <div>
-                    <div className="slider-container">
+                    <div className="">
                         <Slider {...settings}>
-                            <div className='px-2 tab:px-3 mob:px-0'>
+                            <div className='px-2 tab:px-2 mob:px-2'>
                                 <div className='relative border border-borderGray'>
-                                    <div className="h-64 tab:h-56 mob:h-48 group relative">
+                                    <div className="h-64 tab:h-56 mob:h-40 group relative">
                                         <img className="h-full absolute duration-300 opacity-100 group-hover:opacity-0" src={watchFirst} alt="watch" />
                                         <img className="h-full absolute duration-300 opacity-0 group-hover:opacity-100" src={watchFirstHover} alt="watch" />
                                     </div>
-                                    <div className='absolute top-5 left-5'>
+                                    <div className='absolute top-5 left-5 mob:left-2'>
                                         <div>
                                             <div className='p-2 h-8 relative shadow-md text-white group hover:bg-black hover:text-white transition-all ease-in-out'>
                                                 <img className='h-4 w-4  absolute duration-300 opacity-100 group-hover:opacity-0' src={heart} alt='heart' />
@@ -129,7 +129,7 @@ export default function Deal() {
                                 </div>
                                 <div className='text-center align-center flex flex-col gap-2 my-3'>
                                     <div>
-                                        <div className='font-semibold hover:text-grayHover transition-all ease-in-out'>
+                                        <div className='font-semibold hover:text-grayHover transition-all ease-in-out mob:text-sm'>
                                             <p>Tissot T-Classic Rhodium Dial Automatic Men's Watch</p>
                                         </div>
                                         <div className='flex justify-center  py-1'>
@@ -148,13 +148,13 @@ export default function Deal() {
                                     </div>
                                 </div>
                             </div>
-                            <div className='px-2 tab:px-3 mob:px-0'>
+                            <div className='px-2 tab:px-3 mob:px-2'>
                                 <div className='relative border border-borderGray'>
-                                    <div className="h-64 tab:h-56 mob:h-48 group relative">
+                                    <div className="h-64 tab:h-56 mob:h-40 group relative">
                                         <img className="h-full absolute duration-300 opacity-100 group-hover:opacity-0" src={watchSecond} alt="watch" />
                                         <img className="h-full absolute duration-300 opacity-0 group-hover:opacity-100" src={watchSecondHover} alt="watch" />
                                     </div>
-                                    <div className='absolute top-5 left-5'>
+                                    <div className='absolute top-5 left-5 mob:left-2'>
                                         <div>
                                             <div className='p-2 h-8 relative shadow-md text-white group hover:bg-black hover:text-white transition-all ease-in-out'>
                                                 <img className='h-4 w-4  absolute duration-300 opacity-100 group-hover:opacity-0' src={heart} alt='heart' />
@@ -173,7 +173,7 @@ export default function Deal() {
                                 </div>
                                 <div className='text-center align-center flex flex-col gap-2 py-3'>
                                     <div>
-                                        <div className='hover:text-grayHover transition-all ease-in-out font-semibold'>
+                                        <div className='hover:text-grayHover transition-all ease-in-out font-semibold mob:text-sm'>
                                             <p>The Prito Compatible Unbreakable Screen Watch</p>
                                         </div>
                                         <div className='flex justify-center py-1'>
@@ -192,13 +192,13 @@ export default function Deal() {
                                     </div>
                                 </div>
                             </div>
-                            <div className='px-2 tab:px-3 mob:px-0'>
+                            <div className='px-2 tab:px-3 mob:px-2'>
                                 <div className='relative border border-borderGray'>
-                                    <div className="h-64 tab:h-56 mob:h-48 group relative">
+                                    <div className="h-64 tab:h-56 mob:h-40 group relative">
                                         <img className="h-full absolute duration-300 opacity-100 group-hover:opacity-0" src={watchThird} alt="watch" />
                                         <img className="h-full absolute duration-300 opacity-0 group-hover:opacity-100" src={watchThirdHover} alt="watch" />
                                     </div>
-                                    <div className='absolute top-5 left-5'>
+                                    <div className='absolute top-5 left-5 mob:left-2'>
                                         <div>
                                             <div className='p-2 h-8 relative shadow-md text-white group hover:bg-black hover:text-white transition-all ease-in-out'>
                                                 <img className='h-4 w-4  absolute duration-300 opacity-100 group-hover:opacity-0' src={heart} alt='heart' />
@@ -217,7 +217,7 @@ export default function Deal() {
                                 </div>
                                 <div className='text-center align-center flex flex-col gap-2 py-3'>
                                     <div>
-                                        <div className='hover:text-grayHover transition-all ease-in-out font-semibold'>
+                                        <div className='hover:text-grayHover transition-all ease-in-out font-semibold mob:text-sm'>
                                             <p>Tissot T-Classic Rhodium Dial Automatic Men's Watch</p>
                                         </div>
                                         <div className='flex justify-center py-1'>
@@ -236,13 +236,13 @@ export default function Deal() {
                                     </div>
                                 </div>
                             </div>
-                            <div className='px-2 tab:px-3 mob:px-0'>
+                            <div className='px-2 tab:px-3 mob:px-2'>
                                 <div className='relative border border-borderGray'>
-                                    <div className="h-64 tab:h-56 mob:h-48 group relative">
+                                    <div className="h-64 tab:h-56 mob:h-40 group relative">
                                         <img className="h-full absolute duration-300 opacity-100 group-hover:opacity-0" src={watchForth} alt="watch" />
                                         <img className="h-full absolute duration-300 opacity-0 group-hover:opacity-100" src={watchForthHover} alt="watch" />
                                     </div>
-                                    <div className='absolute top-5 left-5'>
+                                    <div className='absolute top-5 left-5 mob:left-2'>
                                         <div>
                                             <div className='p-2 h-8 relative shadow-md text-white group hover:bg-black hover:text-white transition-all ease-in-out'>
                                                 <img className='h-4 w-4  absolute duration-300 opacity-100 group-hover:opacity-0' src={heart} alt='heart' />
@@ -261,7 +261,7 @@ export default function Deal() {
                                 </div>
                                 <div className='text-center align-center flex flex-col gap-2 py-3'>
                                     <div>
-                                        <div className='hover:text-grayHover transition-all ease-in-out font-semibold'>
+                                        <div className='hover:text-grayHover transition-all ease-in-out font-semibold mob:text-sm'>
                                             <p>Tissot T-Classic Rhodium Dial Automatic Men's Watch</p>
                                         </div>
                                         <div className='flex justify-center py-1'>
@@ -280,13 +280,13 @@ export default function Deal() {
                                     </div>
                                 </div>
                             </div>
-                            <div className='px-2 tab:px-3 mob:px-0'>
+                            <div className='px-2 tab:px-3 mob:px-2'>
                                 <div className='relative border border-borderGray'>
-                                    <div className="h-64 tab:h-56 mob:h-48 group relative">
+                                    <div className="h-64 tab:h-56 mob:h-40 group relative">
                                         <img className="h-full absolute duration-300 opacity-100 group-hover:opacity-0" src={watchFifth} alt="watch" />
                                         <img className="h-full absolute duration-300 opacity-0 group-hover:opacity-100" src={watchFifthHover} alt="watch" />
                                     </div>
-                                    <div className='absolute top-5 left-5'>
+                                    <div className='absolute top-5 left-5 mob:left-2'>
                                         <div>
                                             <div className='p-2 h-8 relative shadow-md text-white group hover:bg-black hover:text-white transition-all ease-in-out'>
                                                 <img className='h-4 w-4  absolute duration-300 opacity-100 group-hover:opacity-0' src={heart} alt='heart' />
@@ -305,7 +305,7 @@ export default function Deal() {
                                 </div>
                                 <div className='text-center align-center flex flex-col gap-2 py-3'>
                                     <div>
-                                        <div className='hover:text-grayHover transition-all ease-in-out font-semibold'>
+                                        <div className='hover:text-grayHover transition-all ease-in-out font-semibold mob:text-sm'>
                                             <p>Tissot T-Classic Rhodium Dial Automatic Men's Watch</p>
                                         </div>
                                         <div className='flex justify-center py-1'>

@@ -15,7 +15,7 @@ import chart from '../../../Assets/Icon/eva--bar-chart-outline.svg';
 import chartHover from '../../../Assets/Icon/chartHover.svg';
 import eye from '../../../Assets/Icon/tabler--eye.svg';
 import eyeHover from '../../../Assets/Icon/eyeHover.svg';
-import star from '../../../Assets/Icon/star-sharp-svgrepo-com.svg';
+import star from '../../../Assets/Icon/icons8-star-15.png';
 import menuHover from '../../../Assets/Icon/menuWhite.svg';
 import menu from '../../../Assets/Icon/menu black.svg';
 import straitMenu from '../../../Assets/Icon/strait menu.svg';
@@ -66,11 +66,11 @@ export default function ManWatchSection() {
                     <div className='grid grid-cols-4 gap-7 tab:grid-cols-3 tab:gap-4 mob:grid-cols-2 mob:gap-3'>
                         <div className='mob:px-0'>
                             <div className='relative border border-borderGray'>
-                                <div className="h-64 tab:h-56 mob:h-48 group relative cursor-pointer">
+                                <div className="h-64 tab:h-56 mob:h-40 group relative cursor-pointer">
                                     <img className="h-full absolute duration-300 opacity-100 group-hover:opacity-0" src={watchFirst} alt="watch" />
                                     <img className="h-full absolute duration-300 opacity-0 group-hover:opacity-100" src={watchFirstHover} alt="watch" />
                                 </div>
-                                <div className='absolute top-5 left-5 cursor-pointer'>
+                                <div className='absolute top-5 left-5 cursor-pointer mob:left-3'>
                                     <div>
                                         <div className='p-2 h-8 relative shadow-md text-white group hover:bg-black hover:text-white transition-all ease-in-out'>
                                             <img className='h-4 w-4  absolute duration-300 opacity-100 group-hover:opacity-0' src={heart} alt='heart' />
@@ -110,11 +110,11 @@ export default function ManWatchSection() {
                         </div>
                         <div className='mob:px-0'>
                             <div className='relative border border-borderGray'>
-                                <div className="h-64 tab:h-56 mob:h-48 group relative cursor-pointer">
+                                <div className="h-64 tab:h-56 mob:h-40 group relative cursor-pointer">
                                     <img className="h-full absolute duration-300 opacity-100 group-hover:opacity-0" src={watchSecond} alt="watch" />
                                     <img className="h-full absolute duration-300 opacity-0 group-hover:opacity-100" src={watchSecondHover} alt="watch" />
                                 </div>
-                                <div className='absolute top-5 left-5 cursor-pointer'>
+                                <div className='absolute top-5 left-5 cursor-pointer mob:left-3'>
                                     <div>
                                         <div className='p-2 h-8 relative shadow-md text-white group hover:bg-black hover:text-white transition-all ease-in-out'>
                                             <img className='h-4 w-4  absolute duration-300 opacity-100 group-hover:opacity-0' src={heart} alt='heart' />
@@ -157,11 +157,11 @@ export default function ManWatchSection() {
                         </div>
                         <div className='mob:px-0'>
                             <div className='relative border border-borderGray'>
-                                <div className="h-64 tab:h-56 mob:h-48 group relative cursor-pointer">
+                                <div className="h-64 tab:h-56 mob:h-40 group relative cursor-pointer">
                                     <img className="h-full absolute duration-300 opacity-100 group-hover:opacity-0" src={watchThird} alt="watch" />
                                     <img className="h-full absolute duration-300 opacity-0 group-hover:opacity-100" src={watchThirdHover} alt="watch" />
                                 </div>
-                                <div className='absolute top-5 left-5 cursor-pointer'>
+                                <div className='absolute top-5 left-5 cursor-pointer mob:left-3'>
                                     <div>
                                         <div className='p-2 h-8 relative shadow-md text-white group hover:bg-black hover:text-white transition-all ease-in-out'>
                                             <img className='h-4 w-4  absolute duration-300 opacity-100 group-hover:opacity-0' src={heart} alt='heart' />
@@ -204,11 +204,11 @@ export default function ManWatchSection() {
                         </div>
                         <div className='mob:px-0'>
                             <div className='relative border border-borderGray'>
-                                <div className="h-64 tab:h-56 mob:h-48 group relative cursor-pointer">
+                                <div className="h-64 tab:h-56 mob:h-40 group relative cursor-pointer">
                                     <img className="h-full absolute duration-300 opacity-100 group-hover:opacity-0" src={watchForth} alt="watch" />
                                     <img className="h-full absolute duration-300 opacity-0 group-hover:opacity-100" src={watchForthHover} alt="watch" />
                                 </div>
-                                <div className='absolute top-5 left-5 cursor-pointer'>
+                                <div className='absolute top-5 left-5 cursor-pointer mob:left-3'>
                                     <div>
                                         <div className='p-2 h-8 relative shadow-md text-white group hover:bg-black hover:text-white transition-all ease-in-out'>
                                             <img className='h-4 w-4  absolute duration-300 opacity-100 group-hover:opacity-0' src={heart} alt='heart' />
@@ -248,11 +248,11 @@ export default function ManWatchSection() {
                         </div>
                         <div className='mob:px-0'>
                             <div className='relative border border-borderGray'>
-                                <div className="h-64 tab:h-56 mob:h-48 group relative cursor-pointer">
+                                <div className="h-64 tab:h-56 mob:h-40 group relative cursor-pointer">
                                     <img className="h-full absolute duration-300 opacity-100 group-hover:opacity-0" src={watchFifth} alt="watch" />
                                     <img className="h-full absolute duration-300 opacity-0 group-hover:opacity-100" src={watchFifthHover} alt="watch" />
                                 </div>
-                                <div className='absolute top-5 left-5 cursor-pointer'>
+                                <div className='absolute top-5 left-5 cursor-pointer mob:left-3'>
                                     <div>
                                         <div className='p-2 h-8 relative shadow-md text-white group hover:bg-black hover:text-white transition-all ease-in-out'>
                                             <img className='h-4 w-4  absolute duration-300 opacity-100 group-hover:opacity-0' src={heart} alt='heart' />

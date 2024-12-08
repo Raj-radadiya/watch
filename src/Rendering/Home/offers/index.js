@@ -4,7 +4,7 @@ import offersRight from '../../../Assets/Images/offersRiight.webp';
 export default function Offers() {
     return (
         <div>
-            <div className='max-w-[1430px] mx-auto py-16 tab:py-0 mob:py-10 flex gap-8 mob:flex-col tab:px-5'>
+            <div className='max-w-[1430px] mx-auto py-16 tab:py-0 mob:py-5 flex gap-8 mob:flex-col tab:px-5'>
                 <div className='relative overflow-hidden'>
                     <div>
                         <div className='h-64 w-[715px] tab:h-[140px] tab:w-auto transform hover:scale-110 ease-in-out duration-300 mob:h-44'>

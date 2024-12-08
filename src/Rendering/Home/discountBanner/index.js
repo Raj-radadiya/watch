@@ -13,7 +13,7 @@ function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
         <div
-            className='w-9 h-9 bg-black flex justify-center items-center absolute right-0 top-1/2 transform -translate-y-1/2 z-10'
+            className='w-9 h-9 bg-black flex justify-center items-center absolute right-0 top-1/2 transform -translate-y-1/2 z-10 mob:hidden'
             onClick={onClick}
         >
             <img src={right} alt="left" />
@@ -26,7 +26,7 @@ function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
         <div
-            className='w-9 h-9 bg-black flex justify-center items-center absolute left-0 top-1/2 transform -translate-y-1/2 z-10 '
+            className='w-9 h-9 bg-black flex justify-center items-center absolute left-0 top-1/2 transform -translate-y-1/2 z-10 mob:hidden'
             onClick={onClick}
         >
             <img src={left} alt="left" />
@@ -56,7 +56,7 @@ export default function DiscountBanner() {
             {
                 breakpoint: 577,
                 settings: {
-                    slidesToShow: 3,
+                    slidesToShow: 2,
                     slidesToScroll: 3,
                     initialSlide: 2,
                     infinite: true,
@@ -67,7 +67,7 @@ export default function DiscountBanner() {
     };
     return (
         <div>
-            <div className='relative py-20 tab:py-16'>
+            <div className='relative py-20 tab:py-16 mob:py-6 mob:pb-10'>
                 <div className='h-[560px] tab:h-[320px] mob:h-52'>
                     <img className='h-full object-cover' src={offers} alt='offers' />
                 </div>
@@ -78,27 +78,29 @@ export default function DiscountBanner() {
                 </div>
             </div>
             <div>
-                <div className="overflow-hidden ">
-                    <Slider {...settings}>
-                        <div className='h-[74px] w-[168px]'>
-                            <img className='h-full w-auto mx-auto opacity-50 hover:opacity-100 duration-300' src={brandFirst} alt='brandFirst' />
-                        </div>
-                        <div className='h-[74px] w-[168px] opacity-50'>
-                            <img className='h-full w-auto mx-auto opacity-50 hover:opacity-100 duration-300' src={brandSecond} alt='brandFirst' />
-                        </div>
-                        <div className='h-[74px] w-[168px] opacity-50'>
-                            <img className='h-full w-auto mx-auto opacity-50 hover:opacity-100 duration-300' src={brandThird} alt='brandFirst' />
-                        </div>
-                        <div className='h-[74px] w-[168px] opacity-50'>
-                            <img className='h-full w-auto mx-auto opacity-50 hover:opacity-100 duration-300' src={brandForth} alt='brandFirst' />
-                        </div>
-                        <div className='h-[74px] w-[168px] opacity-50'>
-                            <img className='h-full w-auto mx-auto opacity-50 hover:opacity-100 duration-300' src={brandFifth} alt='brandFirst' />
-                        </div>
-                        <div className='h-[74px] w-[168px] opacity-50'>
-                            <img className='h-full w-auto mx-auto opacity-50 hover:opacity-100 duration-300' src={brandSixth} alt='brandFirst' />
-                        </div>
-                    </Slider>
+                <div className='max-w-[1430px] mx-auto tab:px-3 mob:p-0'>
+                    <div className="overflow-hidden">
+                        <Slider {...settings}>
+                            <div className='h-[74px] w-[168px]'>
+                                <img className='h-full w-auto mx-auto opacity-50 hover:opacity-100 duration-300' src={brandFirst} alt='brandFirst' />
+                            </div>
+                            <div className='h-[74px] w-[168px] opacity-50'>
+                                <img className='h-full w-auto mx-auto opacity-50 hover:opacity-100 duration-300' src={brandSecond} alt='brandFirst' />
+                            </div>
+                            <div className='h-[74px] w-[168px] opacity-50'>
+                                <img className='h-full w-auto mx-auto opacity-50 hover:opacity-100 duration-300' src={brandThird} alt='brandFirst' />
+                            </div>
+                            <div className='h-[74px] w-[168px] opacity-50'>
+                                <img className='h-full w-auto mx-auto opacity-50 hover:opacity-100 duration-300' src={brandForth} alt='brandFirst' />
+                            </div>
+                            <div className='h-[74px] w-[168px] opacity-50'>
+                                <img className='h-full w-auto mx-auto opacity-50 hover:opacity-100 duration-300' src={brandFifth} alt='brandFirst' />
+                            </div>
+                            <div className='h-[74px] w-[168px] opacity-50'>
+                                <img className='h-full w-auto mx-auto opacity-50 hover:opacity-100 duration-300' src={brandSixth} alt='brandFirst' />
+                            </div>
+                        </Slider>
+                    </div>
                 </div>
             </div>
         </div>

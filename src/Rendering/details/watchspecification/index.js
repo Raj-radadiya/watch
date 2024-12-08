@@ -114,7 +114,7 @@ export default function WatchDisc() {
                         <p className='inline tracking-wide tab:leading-loose'>On all orders over $200</p>
                     </div>
                 </div>
-                <div className='bg-backgroundGray p-4 mb-8'>
+                <div className='bg-backgroundGray p-4 mb-8 tab:m-0'>
                     <fieldset className='flex flex-col items-center'>
                         <div className='flex items-center'>
                             <img className='ml-2 w-10 h-10 tab:w-8 tab:h-8' src={paymentFirst} alt='paymentFirst' />

@@ -37,13 +37,11 @@ export default function Header() {
 
             <div className='flex gap-1 items-center capitalize text-sm font-semibold relative hover:opacity-60 after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-black after:transition-all after:ease-in-out after:duration-300 hover:after:w-full'>shop <img src={down} alt='img' /></div>
 
-            <div className='flex gap-1 items-center capitalize text-sm font-semibold relative hover:opacity-60 after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-black after:transition-all after:ease-in-out after:duration-300 hover:after:w-1/2'>categories <div className='px-2 py-1 bg-blue-100 text-xs text-blue-600 uppercase'>sale</div> <img src={down} alt='img' /></div>
+            <div className='flex gap-1 items-center capitalize text-sm font-semibold relative hover:opacity-60 after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-black after:transition-all after:ease-in-out after:duration-300 hover:after:w-1/2'>categories <div className='px-2 py-1 bg-blueBg text-xs text-blueText uppercase'>sale</div> <img src={down} alt='img' /></div>
 
             <div className='flex gap-1 items-center capitalize text-sm font-semibold relative hover:opacity-60 after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-black after:transition-all after:ease-in-out after:duration-300 hover:after:w-1/2'>products <div className='px-2 py-1 bg-red-100 text-xs text-red-600 uppercase'>hot</div> <img src={down} alt='img' /></div>
-            {/* 
-            <div className='flex gap-1 items-center capitalize text-sm font-semibold relative hover:opacity-60 after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-black after:transition-all after:ease-in-out after:duration-300 hover:after:w-full'>top deals <img src={down} alt='img' /></div> */}
 
-            <div className='flex gap-1 items-center capitalize text-sm font-semibold relative hover:opacity-60 after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-black after:transition-all after:ease-in-out after:duration-300 hover:after:w-full'>top deals <img src={down} alt='img' /></div>
+            <div className='flex gap-1 items-center capitalize text-sm font-semibold relative hover:opacity-60 after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-black after:transition-all after:ease-in-out after:duration-300 hover:after:w-full'>top deals <img className='w-4' src={down} alt='img' /></div>
 
             <div className='flex gap-1 items-center capitalize text-sm font-semibold relative hover:opacity-60 after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-black after:transition-all after:ease-in-out after:duration-300 hover:after:w-full'>elements <img src={down} alt='img' /></div>
           </div>

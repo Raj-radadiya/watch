@@ -48,7 +48,7 @@ export default function Productpart() {
     return (
         <div>
             <div>
-                <div className='flex p-[50px] gap-5 relative tab:px-5 mob:flex-col'>
+                <div className='flex p-[50px] gap-5 relative tab:px-5 mob:flex-col mob:pb-7'>
                     <div className="w-1/2 flex h-[475px] sticky top-0 tab:flex-col tab:gap-3 tab:h-full mob:w-full mob:relative">
                         <div className='w-[20%] tab:w-full tab:flex tab:justify-center tab:items-center tab:gap-6'>
                             <div className='w-[110px] h-[85px] border border-black mb-3 overflow-hidden hover:border-borderGray duration-300 mr-6 tab:mr-0'>
@@ -70,20 +70,20 @@ export default function Productpart() {
                         <div className='w-[80%] border border-borderGray tab:w-full'>
                             <div>
                                 <Slider {...settings}>
-                                    <div className="w-[560px] h-[430px]">
-                                        <img className="w-[560px] h-[420px] object-cover" src={watchFirst} alt="watchFirst" />
+                                    <div className="w-[560px] h-[430px] mob:h-[330px]">
+                                        <img className="w-[560px] h-[420px] mob:h-[330px] object-cover" src={watchFirst} alt="watchFirst" />
                                     </div>
                                     <div>
-                                        <img className="w-[560px] h-[420px] object-cover" src={watchSecond} alt="watchFirst" />
+                                        <img className="w-[560px] h-[420px] mob:h-[330px] object-cover" src={watchSecond} alt="watchFirst" />
                                     </div>
                                     <div>
-                                        <img className="w-[560px] h-[420px] object-cover" src={watchThird} alt="watchFirst" />
+                                        <img className="w-[560px] h-[420px] mob:h-[330px] object-cover" src={watchThird} alt="watchFirst" />
                                     </div>
                                     <div>
-                                        <img className="w-[560px] h-[420px] object-cover" src={watchForth} alt="watchFirst" />
+                                        <img className="w-[560px] h-[420px] mob:h-[330px] object-cover" src={watchForth} alt="watchFirst" />
                                     </div>
                                     <div>
-                                        <img className="w-[560px] h-[420px] object-cover" src={watchFifth} alt="watchFirst" />
+                                        <img className="w-[560px] h-[420px] mob:h-[330px] object-cover" src={watchFifth} alt="watchFirst" />
                                     </div>
                                 </Slider>
                             </div>

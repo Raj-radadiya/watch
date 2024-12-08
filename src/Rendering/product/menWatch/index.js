@@ -4,7 +4,7 @@ export default function ManWatch() {
     return (
         <div>
             <div>
-                <div className='text-center py-10 bg-gray tab:py-7'>
+                <div className='text-center py-10 bg-gray tab:py-7 tab:px-6'>
                     <div className='pb-3'>
                         <a href='#' className='hover:text-grayHover ease-in-out duration-300 cursor-pointer text-sm tracking-wider font-normal'>Home /</a>
                         <a href='#' className='hover:text-grayHover ease-in-out duration-300 cursor-pointer text-sm tracking-wider font-normal'> Shop /</a>

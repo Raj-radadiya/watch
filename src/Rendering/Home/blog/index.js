@@ -71,10 +71,10 @@ export default function Blog() {
                         <h2>Our Latest News</h2>
                     </div>
                     <div>
-                        <div className="overflow-hidden">
+                        <div className='h-[450px]'>
                             <Slider {...settings}>
-                                <div className='px-4 tab:pl-5 tab:pr-3'>
-                                    <div className='h-72 tab:h-[235px] mob:h-[215px] w-auto overflow-hidden'>
+                                <div className='px-4 tab:pl-5 tab:pr-5'>
+                                    <div className='h-72 tab:h-[235px] mob:h-[215px] w-auto'>
                                         <img className='h-full w-full object-cover transform hover:scale-110 ease-in-out duration-300' src={blogFirst} alt='blogFirst' />
                                     </div>
 
