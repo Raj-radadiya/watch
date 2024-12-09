@@ -83,28 +83,28 @@ export default function Deal() {
                     <div>
                         <div className='flex gap-4 text-center justify-center'>
                             <div className=' bg-gray px-4 py-1'>
-                                <b className='text-xl'>401</b>
+                                <b className='text-xl mob:text-base'>401</b>
                                 <p className='text-xs'>DAYS</p>
                             </div>
                             <div className=' bg-gray px-4 py-1'>
-                                <b className='text-xl'>12</b>
+                                <b className='text-xl mob:text-base'>12</b>
                                 <p className='text-xs'>HOURS</p>
                             </div>
                             <div className=' bg-gray px-4 py-1'>
-                                <b className='text-xl'>17</b>
+                                <b className='text-xl mob:text-base'>17</b>
                                 <p className='text-xs'>MINS</p>
                             </div>
                             <div className=' bg-gray px-4 py-1'>
-                                <b className='text-xl'>45</b>
+                                <b className='text-xl mob:text-base'>45</b>
                                 <p className='text-xs'>SECS</p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div>
-                    <div className="">
+                    <div>
                         <Slider {...settings}>
-                            <div className='px-2 tab:px-2 mob:px-2'>
+                            <div className='px-2 tab:px-2 mob:px-3'>
                                 <div className='relative border border-borderGray'>
                                     <div className="h-64 tab:h-56 mob:h-40 group relative">
                                         <img className="h-full absolute duration-300 opacity-100 group-hover:opacity-0" src={watchFirst} alt="watch" />

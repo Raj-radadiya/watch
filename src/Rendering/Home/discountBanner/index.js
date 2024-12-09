@@ -71,10 +71,10 @@ export default function DiscountBanner() {
                 <div className='h-[560px] tab:h-[320px] mob:h-52'>
                     <img className='h-full object-cover' src={offers} alt='offers' />
                 </div>
-                <div className='absolute top-1/2 left-16 transform -translate-y-1/2 text-white text-center flex flex-col gap-4 max-w-[700px] items-center tab:left-6 tab:max-w-[450px] tab:gap-3 mob:left-3 mob:max-w-[250px]'>
+                <div className='absolute top-1/2 left-16 transform -translate-y-1/2 text-white text-center flex flex-col gap-4 max-w-[700px] items-center tab:left-6 tab:max-w-[450px] tab:gap-3 mob:left-5 mob:max-w-[250px] mob:text-start mob:items-start'>
                     <p className='capitalize text-xl'>LIMITED EDITION</p>
                     <h1 className='text-6xl font-bold leading-tight tab:leading-snug tab:text-4xl mob:text-xl'>GET YOUR EPIC TIMES UP TO 25% OFF</h1>
-                    <button className='mx-auto text-center justify-center capitalize px-6 py-2 bg-gray text-black font-semibold text-button hover:bg-grayHover hover:text-white transition-all ease-in-out duration-500 max-w-40'>discover more</button>
+                    <button className='mx-auto text-center justify-center capitalize px-6 py-2 bg-gray text-black font-semibold text-button hover:bg-grayHover hover:text-white transition-all ease-in-out duration-500 max-w-40 mob:mx-0'>discover more</button>
                 </div>
             </div>
             <div>

@@ -30,7 +30,7 @@ export default function Header() {
         <div className='max-w-[1430px] mx-auto flex justify-between items-center px-4 py-4 text-centerc tab:px-6 mob:px-5'>
           <div className='w-44 h-6 tab:h-5 tab:flex tab:gap-4 tab:align-center'>
             <img className=' hidden tab:block h-full' src={menu} alt='menu' />
-            <img src={logo} alt='logo' />
+            <img className='h-full mob:w-32' src={logo} alt='logo' />
           </div>
           <div className='flex gap-10 items-center tab:hidden'>
             <div className='capitalize text-sm font-semibold relative hover:opacity-60 after:absolute after:bottom-0 after:left-0 after:h-px after:w-0 after:bg-black after:transition-all after:ease-in-out after:duration-300 hover:after:w-full'>home</div>

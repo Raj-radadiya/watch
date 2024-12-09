@@ -4,6 +4,7 @@ import Watch from './product'
 import Details from './details'
 import Blog from './blog'
 import Contact from './contact'
+import Portfolio from './portfolio'
 
 export default function Rendering() {
   return (
@@ -13,6 +14,7 @@ export default function Rendering() {
       <Details />
       <Blog />
       <Contact/>
+      <Portfolio/>
     </div>
   )
 }

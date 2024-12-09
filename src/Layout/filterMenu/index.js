@@ -57,12 +57,12 @@ export default function Filter() {
                 </div>
                 <div>
                     <div className='mb-2 cursor-pointer'>
-                        <span className='text-textGray hover:text-black ease-in-out duration-75 text-base block mb-2 tab:text-sm mob:text-'>All Products</span>
-                        <span className='text-textGray hover:text-black ease-in-out duration-75 text-base block mb-2 tab:text-sm mob:text-'>Best Seller</span>
-                        <span className='text-textGray hover:text-black ease-in-out duration-75 text-base block mb-2 tab:text-sm mob:text-'>New Arrivals</span>
-                        <span className='text-textGray hover:text-black ease-in-out duration-75 text-base block mb-2 tab:text-sm mob:text-'>Sale
+                        <span className='text-textGray hover:text-black ease-in-out duration-75 text-base block mb-2 tab:text-sm mob:text-xs'>All Products</span>
+                        <span className='text-textGray hover:text-black ease-in-out duration-75 text-base block mb-2 tab:text-sm mob:text-xs'>Best Seller</span>
+                        <span className='text-textGray hover:text-black ease-in-out duration-75 text-base block mb-2 tab:text-sm mob:text-xs'>New Arrivals</span>
+                        <span className='text-textGray hover:text-black ease-in-out duration-75 text-base block mb-2 tab:text-sm mob:text-xs'>Sale
                         </span>
-                        <span className='text-textGray hover:text-black ease-in-out duration-75 text-base block mb-2 tab:text-sm mob:text-'>Hot Items</span>
+                        <span className='text-textGray hover:text-black ease-in-out duration-75 text-base block mb-2 tab:text-sm mob:text-xs'>Hot Items</span>
                     </div>
                 </div>
             </div>
@@ -114,7 +114,7 @@ export default function Filter() {
                         <img src={minus} alt='minus' />
                     </div>
                 </div>
-                <div className='pb-3'>
+                <div className='pb-3 mob:pb-2'>
                     <div className='flex gap-1'>
                         <div className='flex'>
                             <img className='w-5 h-5' src={star} alt='star' />
@@ -128,7 +128,7 @@ export default function Filter() {
                         </div>
                     </div>
                 </div>
-                <div className='pb-3'>
+                <div className='pb-3 mob:pb-2'>
                     <div className='flex gap-1'>
                         <div className='flex'>
                             <img className='w-5 h-5' src={star} alt='star' />
@@ -142,7 +142,7 @@ export default function Filter() {
                         </div>
                     </div>
                 </div>
-                <div className='pb-3'>
+                <div className='pb-3 mob:pb-2'>
                     <div className='flex gap-1'>
                         <div className='flex'>
                             <img className='w-5 h-5' src={star} alt='star' />
@@ -156,7 +156,7 @@ export default function Filter() {
                         </div>
                     </div>
                 </div>
-                <div className='pb-3'>
+                <div className='pb-3 mob:pb-2'>
                     <div className='flex gap-1'>
                         <div className='flex'>
                             <img className='w-5 h-5' src={star} alt='star' />
@@ -170,7 +170,7 @@ export default function Filter() {
                         </div>
                     </div>
                 </div>
-                <div className='pb-3'>
+                <div className='pb-3 mob:pb-2'>
                     <div className='flex gap-1'>
                         <div className='flex'>
                             <img className='w-5 h-5' src={star} alt='star' />

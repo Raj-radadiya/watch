@@ -12,7 +12,7 @@ function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
         <div
-            className='w-9 h-9 bg-black flex justify-center items-center absolute right-0 top-1/2 transform -translate-y-1/2 z-10 tab:top-60 mob:top-44'
+            className='w-9 h-9 bg-black flex justify-center items-center absolute right-0 top-1/2 transform -translate-y-1/2 z-10 tab:top-60 mob:top-44 mob:hidden'
             onClick={onClick}
         >
             <img src={right} alt="left" />
@@ -25,7 +25,7 @@ function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
         <div
-            className='w-9 h-9 bg-black flex justify-center items-center absolute left-0 top-1/2 transform -translate-y-1/2 z-10 tab:top-60 mob:top-44'
+            className='w-9 h-9 bg-black flex justify-center items-center absolute left-0 top-1/2 transform -translate-y-1/2 z-10 tab:top-60 mob:top-44 mob:hidden'
             onClick={onClick}
         >
             <img src={left} alt="left" />
@@ -67,14 +67,14 @@ export default function Blog() {
         <div>
             <div className='max-w-[1430px] m-auto'>
                 <div>
-                    <div className='text-center pb-8 text-3xl font-semibold tab:py-10 tab:pb-7'>
+                    <div className='text-center pb-8 text-3xl font-semibold tab:py-10 tab:pb-7 mob:text-2xl mob:pb-5'>
                         <h2>Our Latest News</h2>
                     </div>
                     <div>
                         <div className='h-[450px]'>
                             <Slider {...settings}>
                                 <div className='px-4 tab:pl-5 tab:pr-5'>
-                                    <div className='h-72 tab:h-[235px] mob:h-[215px] w-auto'>
+                                    <div className='h-72 tab:h-[235px] mob:h-[215px] w-auto overflow-hidden'>
                                         <img className='h-full w-full object-cover transform hover:scale-110 ease-in-out duration-300' src={blogFirst} alt='blogFirst' />
                                     </div>
 

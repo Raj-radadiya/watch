@@ -44,8 +44,8 @@ export default function ManWatchSection() {
                             </div>
                         </div>
                         <div className='flex items-center gap-2'>
-                            <div>
-                                <select className='outline-none border-b border-b-borderGray py-1 text-sm'>
+                            <div className='mob:p-1'>
+                                <select className='outline-none border-b border-b-borderGray py-1 text-sm mob:p-3'>
                                     <option className='text-sm'>default Sorting</option>
                                     <option className='text-sm'>Sort by popularity</option>
                                     <option className='text-sm'>Sort by average rating</option>

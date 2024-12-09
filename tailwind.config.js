@@ -17,7 +17,7 @@ module.exports = {
         gray: '#f2f2f2',
         grayHover: '#7c7c7c',
         borderGray: '#e5e5e5',
-        gbGray:'#f4f4f4',
+        gbGray: '#f4f4f4',
         indigo: '#808080',
         textGray: '#555555',
         spanGray: '#777777',

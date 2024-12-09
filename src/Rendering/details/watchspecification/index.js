@@ -20,11 +20,11 @@ export default function WatchDisc() {
                 <div>
                     <p className='text-sm text-textGray tab:mb-1'>Product Brand: <a className='underline text-black font-medium ml-1 hover:text-spanGray duration-200' href='#'>Creative</a></p>
                 </div>
-                <div className='mb-3'>
-                    <h3 className='text-2xl font-semibold tracking-wide tab:text-lg'>Tissot T-Classic Rhodium Dial Automatic Men's Watch</h3>
+                <div className='mb-3 mob:mb-2'>
+                    <h3 className='text-2xl font-semibold tracking-wide tab:text-lg mob:text-base'>Tissot T-Classic Rhodium Dial Automatic Men's Watch</h3>
                 </div>
                 <div className='flex justify-between items-center mb-3 tab:flex-col tab:items-start tab:gap-2'>
-                    <div className='text-xl font-medium'>
+                    <div className='text-xl font-medium mob:text-lg'>
                         <h3>$200</h3>
                     </div>
                     <div className='flex items-center'>
@@ -36,19 +36,19 @@ export default function WatchDisc() {
                             <img className='w-4 h-4' src={star} alt='star' />
                         </div>
                         <div>
-                            <a className='underline' href='#'>(1 customer review )</a>
+                            <a className='underline text-sm' href='#'>(1 customer review )</a>
                         </div>
                     </div>
                 </div>
                 <div>
                     <div className='h-12  flex gap-2 items-center mb-3'>
-                        <img className='h-12 w-7' src={eye} alt='eye' />
-                        <span className='text-base'><b className='mr-1'>25</b>people are viewing this right now</span>
+                        <img className='h-12 w-7 mob:h-11 mob:w-7' src={eye} alt='eye' />
+                        <span className='text-base mob:text-sm'><b className='mr-1'>25</b>people are viewing this right now</span>
                     </div>
                 </div>
                 <div className='bg-redBg text-redText py-2 px-3 rounded flex items-center gap-2 mb-4 tab:gap-1'>
                     <img className='w-6 h-6' src={fire} alt='fire' />
-                    <p className='tab:text-base'>5 products sold in last 13 hours</p>
+                    <p className='tab:text-base mob:text-sm'>5 products sold in last 13 hours</p>
                 </div>
                 <div className='text-base text-textGray mt-3 mb-5 tab:text-sm tab:mb-4'>
                     <li className='pb-0.5'>Case Material: Resin , Water Resistant.</li>
@@ -114,7 +114,7 @@ export default function WatchDisc() {
                         <p className='inline tracking-wide tab:leading-loose'>On all orders over $200</p>
                     </div>
                 </div>
-                <div className='bg-backgroundGray p-4 mb-8 tab:m-0'>
+                <div className='bg-backgroundGray p-4 mb-8 tab:m-0  mob:p-2'>
                     <fieldset className='flex flex-col items-center'>
                         <div className='flex items-center'>
                             <img className='ml-2 w-10 h-10 tab:w-8 tab:h-8' src={paymentFirst} alt='paymentFirst' />

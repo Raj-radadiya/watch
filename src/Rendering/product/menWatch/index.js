@@ -11,7 +11,7 @@ export default function ManWatch() {
                         <a href='#' className='hover:text-grayHover ease-in-out duration-300 cursor-pointer text-sm tracking-wider font-normal'> Philippe Patek Watches /</a>
                         <span>Bell and Ross</span>
                     </div>
-                    <div className='text-3xl font-bold tracking-wide'>
+                    <div className='text-3xl font-bold tracking-wide mob:text-2xl'>
                         <h3>Bell and Ross</h3>
                     </div>
                 </div>

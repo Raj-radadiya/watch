@@ -9,7 +9,7 @@ function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (
         <div
-            className='w-9 h-9 bg-black flex justify-center items-center absolute right-0 top-1/2 transform -translate-y-1/2 z-10'
+            className='w-9 h-9 bg-black flex justify-center items-center absolute right-0 top-1/2 transform -translate-y-1/2 z-10 mob:hidden'
             onClick={onClick}
         >
             <img src={right} alt="left" />
@@ -22,7 +22,7 @@ function SamplePrevArrow(props) {
     const { className, style, onClick } = props;
     return (
         <div
-            className='w-9 h-9 bg-black flex justify-center items-center absolute left-0 top-1/2 transform -translate-y-1/2 z-10'
+            className='w-9 h-9 bg-black flex justify-center items-center absolute left-0 top-1/2 transform -translate-y-1/2 z-10 mob:hidden'
             onClick={onClick}
         >
             <img src={left} alt="left" />
