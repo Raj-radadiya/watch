@@ -41,8 +41,12 @@ export default function Contact() {
                         </div>
                     </div>
                 </div>
+            </div>
 
-                
+            <div className='max-w-[1400px] mx-auto'>
+                <div>
+                    
+                </div>
             </div>
         </div>
     )
