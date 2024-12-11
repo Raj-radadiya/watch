@@ -13,7 +13,7 @@ export default function Footer() {
   return (
     <div>
       <div className='border-b border-b-borderGray'>
-        <div className='max-w-[1430px] mx-auto px-4 py-6 grid grid-cols-4 pt-[74px] pb-[60px] tab:grid-cols-2 tab:gap-y-4 mob:grid-cols-1 mob:gap-y-5 tab:py-10'>
+        <div className='max-w-[1430px] mx-auto px-4 py-6 grid grid-cols-4 pt-0 pb-[60px] tab:grid-cols-2 tab:gap-y-4 mob:grid-cols-1 mob:gap-y-5 tab:py-10'>
           <div className='max-w-80'>
             <div className='w-44 h-6 flex gap-4 mb-6 mob:mb-4'>
               <img src={logo} alt='logo' />
