@@ -26,9 +26,10 @@ export default function Contact() {
                                 <h3 className='text-3xl font-semibold pb-3 tab:pb-2 mob:text-2xl'>Get In Touch With Us</h3>
                                 <p className='text-textGray text-sm tracking-wide'>If you wish to directly reach us, Please fill out the form below -</p>
                             </div>
-                            <div>
+
+                            <div className='mt-10 tab:mt-7'>
                                 <label className='text-sm text-spanGray block pb-0.5'>Your name</label>
-                                <input className='w-full p-2 border border-borderGray focus:outline-none tab:p-2' type='text' />
+                                <input className='w-full p-2 border border-borderGray focus:outline-none' type='text' />
                             </div>
                             <div className='mt-10 tab:mt-7'>
                                 <label className='text-sm text-spanGray block pb-0.5'>Your email</label>
