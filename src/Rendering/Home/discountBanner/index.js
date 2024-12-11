@@ -40,6 +40,9 @@ export default function DiscountBanner() {
         speed: 500,
         slidesToShow: 6,
         slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        pauseOnHover: true,
         nextArrow: <SampleNextArrow />,
         prevArrow: <SamplePrevArrow />,
         initialSlide: 0,
@@ -82,7 +85,7 @@ export default function DiscountBanner() {
                     <div className="overflow-hidden">
                         <Slider {...settings}>
                             <div className='h-[74px] w-[168px]'>
-                                <img className='h-full w-auto mx-auto opacity-50 hover:opacity-100 duration-300' src={brandFirst} alt='brandFirst' />
+                                <img className='h-full w-auto mx-auto opacity-40 hover:opacity-50 duration-300' src={brandFirst} alt='brandFirst' />
                             </div>
                             <div className='h-[74px] w-[168px] opacity-50'>
                                 <img className='h-full w-auto mx-auto opacity-50 hover:opacity-100 duration-300' src={brandSecond} alt='brandFirst' />
